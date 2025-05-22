@@ -29,7 +29,7 @@ const ResidenceForm: React.FC<ResidenceFormProps> = ({ residence, onSubmit }) =>
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '',
+      apiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || 'AIzaSyCwvqhzA2faV6DTHhLggZ2NrsY4EVF8cQg',
       version: 'weekly',
       libraries: ['places'],
     });
